@@ -3,7 +3,7 @@ import './App.css';
 function AboutUs() {
     return (
         <>
-            <h1>AboutUs</h1>
+            <h1>О нас</h1>
         </>
     )
 }
@@ -11,7 +11,7 @@ function AboutUs() {
 function Portfolio() {
     return (
         <>
-            <h1>Portfolio</h1>
+            <h1>Портфолио</h1>
         </>
     )
 }
