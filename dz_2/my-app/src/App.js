@@ -1,12 +1,5 @@
 import './App.css';
-
-function AboutUs() {
-    return (
-        <>
-            <h1>О нас</h1>
-        </>
-    )
-}
+import AboutUs from "./pages/aboutUs/AboutUs";
 
 function Portfolio() {
     return (
@@ -16,11 +9,14 @@ function Portfolio() {
     )
 }
 
-
 function App() {
+    const text = {
+        title: "hello",
+        subtitle: "lorem lorem lorem"
+    }
     return (
         <div className="App">
-            <AboutUs/>
+            <AboutUs aboutUs={text}/>
             <Portfolio/>
         </div>
     );
